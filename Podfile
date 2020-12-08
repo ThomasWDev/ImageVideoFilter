@@ -6,6 +6,7 @@ target 'PhotoFilter' do
   use_frameworks!
 
   pod 'YPImagePicker'
+  pod 'GPVideoPlayer'
 
   # Pods for PhotoFilter
 

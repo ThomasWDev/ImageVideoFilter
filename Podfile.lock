@@ -1,4 +1,5 @@
 PODS:
+  - GPVideoPlayer (1.0.4)
   - PryntTrimmerView (4.0.2)
   - SteviaLayout (4.7.3)
   - YPImagePicker (4.4.0):
@@ -6,19 +7,22 @@ PODS:
     - SteviaLayout (~> 4.7.3)
 
 DEPENDENCIES:
+  - GPVideoPlayer
   - YPImagePicker
 
 SPEC REPOS:
   trunk:
+    - GPVideoPlayer
     - PryntTrimmerView
     - SteviaLayout
     - YPImagePicker
 
 SPEC CHECKSUMS:
+  GPVideoPlayer: fcb68bdba2522f3edd3145b0f1de17423e0b30e1
   PryntTrimmerView: 6a43cc90df5d99addeabd33d4ba09b1365322130
   SteviaLayout: c2ecdcff57d44e38fd2f65e54ad52aeae28ca0c4
   YPImagePicker: 15aed8bcaa4dad976e11b6114126d731a2f9f3c9
 
-PODFILE CHECKSUM: b42b6f9b0bcfa4d320d113986715e503b9ca79f1
+PODFILE CHECKSUM: 11ce53d8d2b17dc309ec3bb7fef470fe3f163839
 
-COCOAPODS: 1.10.0
+COCOAPODS: 1.9.3

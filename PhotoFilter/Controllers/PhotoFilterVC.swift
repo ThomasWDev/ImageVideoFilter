@@ -11,7 +11,7 @@ import AVFoundation
 import AVKit
 import Photos
 
-class ViewController: UIViewController {
+class PhotoFilterVC: UIViewController {
     var selectedItems = [YPMediaItem]()
 
     let selectedImageV = UIImageView()
@@ -232,7 +232,7 @@ class ViewController: UIViewController {
 }
 
 // Support methods
-extension ViewController {
+extension PhotoFilterVC {
     /* Gives a resolution for the video by URL */
     func resolutionForLocalVideo(url: URL) -> CGSize? {
         guard let track = AVURLAsset(url: url).tracks(withMediaType: AVMediaType.video).first else { return nil }
@@ -242,7 +242,7 @@ extension ViewController {
 }
 
 // YPImagePickerDelegate
-extension ViewController: YPImagePickerDelegate {
+extension PhotoFilterVC: YPImagePickerDelegate {
     func noPhotos() {}
 
     func shouldAddToSelection(indexPath: IndexPath, numSelections: Int) -> Bool {
